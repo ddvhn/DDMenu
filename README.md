@@ -1,10 +1,12 @@
 DDMenu
 ======
 **Installation**
+--------------------
 
 Just copy DDMenu.h and DDMenu.m to your project.
 
 **Example:**
+--------------------
 ```objc
 - (void)viewDidLoad
 {
