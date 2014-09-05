@@ -22,6 +22,8 @@
 		8F24DD8219BA4FE1002DF9D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F24DD6119BA4FE1002DF9D0 /* UIKit.framework */; };
 		8F24DD8A19BA4FE1002DF9D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F24DD8819BA4FE1002DF9D0 /* InfoPlist.strings */; };
 		8F24DD8C19BA4FE1002DF9D0 /* DDMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F24DD8B19BA4FE1002DF9D0 /* DDMenuTests.m */; };
+		8F24DD9B19BA5066002DF9D0 /* DDMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F24DD9A19BA5066002DF9D0 /* DDMenu.m */; };
+		8F24DD9D19BA6587002DF9D0 /* background-wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F24DD9C19BA6587002DF9D0 /* background-wood.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		8F24DD8719BA4FE1002DF9D0 /* DDMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DDMenuTests-Info.plist"; sourceTree = "<group>"; };
 		8F24DD8919BA4FE1002DF9D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F24DD8B19BA4FE1002DF9D0 /* DDMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDMenuTests.m; sourceTree = "<group>"; };
+		8F24DD9919BA5065002DF9D0 /* DDMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMenu.h; sourceTree = "<group>"; };
+		8F24DD9A19BA5066002DF9D0 /* DDMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMenu.m; sourceTree = "<group>"; };
+		8F24DD9C19BA6587002DF9D0 /* background-wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-wood.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,7 @@
 		8F24DD6319BA4FE1002DF9D0 /* DDMenu */ = {
 			isa = PBXGroup;
 			children = (
+				8F24DD9819BA504E002DF9D0 /* Source */,
 				8F24DD6C19BA4FE1002DF9D0 /* DDAppDelegate.h */,
 				8F24DD6D19BA4FE1002DF9D0 /* DDAppDelegate.m */,
 				8F24DD6F19BA4FE1002DF9D0 /* Main_iPhone.storyboard */,
@@ -129,6 +135,7 @@
 		8F24DD6419BA4FE1002DF9D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8F24DD9C19BA6587002DF9D0 /* background-wood.png */,
 				8F24DD6519BA4FE1002DF9D0 /* DDMenu-Info.plist */,
 				8F24DD6619BA4FE1002DF9D0 /* InfoPlist.strings */,
 				8F24DD6919BA4FE1002DF9D0 /* main.m */,
@@ -153,6 +160,15 @@
 				8F24DD8819BA4FE1002DF9D0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F24DD9819BA504E002DF9D0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8F24DD9919BA5065002DF9D0 /* DDMenu.h */,
+				8F24DD9A19BA5066002DF9D0 /* DDMenu.m */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +250,7 @@
 			files = (
 				8F24DD7419BA4FE1002DF9D0 /* Main_iPad.storyboard in Resources */,
 				8F24DD7919BA4FE1002DF9D0 /* Images.xcassets in Resources */,
+				8F24DD9D19BA6587002DF9D0 /* background-wood.png in Resources */,
 				8F24DD7119BA4FE1002DF9D0 /* Main_iPhone.storyboard in Resources */,
 				8F24DD6819BA4FE1002DF9D0 /* InfoPlist.strings in Resources */,
 			);
@@ -256,6 +273,7 @@
 			files = (
 				8F24DD6E19BA4FE1002DF9D0 /* DDAppDelegate.m in Sources */,
 				8F24DD7719BA4FE1002DF9D0 /* DDViewController.m in Sources */,
+				8F24DD9B19BA5066002DF9D0 /* DDMenu.m in Sources */,
 				8F24DD6A19BA4FE1002DF9D0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
