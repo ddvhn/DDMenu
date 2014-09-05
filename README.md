@@ -26,6 +26,6 @@ Just copy DDMenu.h and DDMenu.m to your project.
 		NSLog(@"Menu has been %@", isOpened ? @"opened" : @"closed");
 	}];
 	
-	[self.view addSubview:_menu];
+	[self.view addSubview:menu];
 }
 ```
