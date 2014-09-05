@@ -1,14 +1,14 @@
 DDMenu
 ======
 
-Example:
-
+**Example:**
+```objc
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	
-	DDMenu *menu = [DDMenu menuWithFrame:CGRectMake(0.f, 20.f, self.view.bounds.size.width, 44.f) titles:titles];
+	DDMenu *menu = [DDMenu menuWithFrame:CGRectMake(0.f, 0.f, self.view.bounds.size.width, 44.f) titles:titles];
 	menu.backgroundColor = [UIColor lightGrayColor];
 	menu.titleTextColor = [UIColor whiteColor];
 	menu.shouldUseSeparators = YES;
@@ -23,3 +23,4 @@ Example:
 	
 	[self.view addSubview:_menu];
 }
+```
