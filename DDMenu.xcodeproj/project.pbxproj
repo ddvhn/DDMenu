@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F01177319BDA836009B900F /* preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F01177219BDA836009B900F /* preview.gif */; };
 		8F24DD5E19BA4FE1002DF9D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F24DD5D19BA4FE1002DF9D0 /* Foundation.framework */; };
 		8F24DD6019BA4FE1002DF9D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F24DD5F19BA4FE1002DF9D0 /* CoreGraphics.framework */; };
 		8F24DD6219BA4FE1002DF9D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F24DD6119BA4FE1002DF9D0 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F01177219BDA836009B900F /* preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preview.gif; sourceTree = "<group>"; };
 		8F24DD5A19BA4FE1002DF9D0 /* DDMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F24DD5D19BA4FE1002DF9D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8F24DD5F19BA4FE1002DF9D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -135,6 +137,7 @@
 		8F24DD6419BA4FE1002DF9D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8F01177219BDA836009B900F /* preview.gif */,
 				8F24DD9C19BA6587002DF9D0 /* background-wood.png */,
 				8F24DD6519BA4FE1002DF9D0 /* DDMenu-Info.plist */,
 				8F24DD6619BA4FE1002DF9D0 /* InfoPlist.strings */,
@@ -253,6 +256,7 @@
 				8F24DD9D19BA6587002DF9D0 /* background-wood.png in Resources */,
 				8F24DD7119BA4FE1002DF9D0 /* Main_iPhone.storyboard in Resources */,
 				8F24DD6819BA4FE1002DF9D0 /* InfoPlist.strings in Resources */,
+				8F01177319BDA836009B900F /* preview.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +493,7 @@
 				8F24DD9119BA4FE1002DF9D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F24DD9219BA4FE1002DF9D0 /* Build configuration list for PBXNativeTarget "DDMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				8F24DD9419BA4FE1002DF9D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
