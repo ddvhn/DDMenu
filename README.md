@@ -1,5 +1,11 @@
 DDMenu
 ======
+
+**Preview**
+--------------------
+
+![](preview.gif)
+
 **Installation**
 --------------------
 
